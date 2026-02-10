@@ -1,16 +1,40 @@
-# React + Vite
+# Brief - The Autonomous Account-Based Marketing (ABM) Architect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Brief is an autonomous agent integrated with Adobe Express to generate hyper-personalized B2B sales collateral. This repository hosts the technical whitepaper explaining the architecture, design, and implementation of the Brief system.
 
-Currently, two official plugins are available:
+## Live Demo
+Check out the live whitepaper here: [https://areebabdulghani.github.io/Brief-ai/](https://areebabdulghani.github.io/Brief-ai/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Modern Tech Stack**: Built with Vite + React for performance.
+- **Custom Design System**: Dark-themed, sharp-edged aesthetic with neon accents.
+- **Responsive Layout**: Fully responsive design for all devices.
+- **Automated Deployment**: CI/CD pipeline with GitHub Actions.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/AreebAbdulGhani/Brief-ai.git
+    ```
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Run development server:
+    ```bash
+    npm run dev
+    ```
 
-## Expanding the ESLint configuration
+## deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is configured to automatically deploy to GitHub Pages on every push to the `main` branch.
+
+- **Workflow File**: `.github/workflows/deploy.yml`
+- **Vite Config**: `vite.config.js` includes the correct `base: '/Brief-ai/'` setting.
+
+## Author
+
+**Areeb Abdul Ghani**
+- [Twitter](https://x.com/AreebAbdulGhan1)
+- [LinkedIn](https://www.linkedin.com/in/areeb-abdul-ghani-aaa46a1b7/)
